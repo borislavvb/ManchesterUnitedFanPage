@@ -1,2 +1,0 @@
-# ManchesterUnitedFanPage
-Front-end project

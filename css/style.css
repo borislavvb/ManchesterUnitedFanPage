@@ -1,0 +1,102 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg2,
+.pimg3,
+.pimg4 {
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image: url('../images/manchester-united-logo-main.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.pimg2 {
+    background-image: url('../images/Believe.jpg');
+    min-height: 60%;
+}
+
+.pimg3 {
+    background-image: url('../images/ryan-giggs-manchester-united-1080P-wallpaper-middle-size.jpg');
+    min-height: 60%;
+}
+
+.pimg4 {
+    background-image: url('../images/img1.jpg');
+    min-height: 90%;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #fff2f2;
+}
+
+.section-light {
+    background-color: #fff2f2;
+    color: black;
+    text-align: justify;
+}
+
+footer {
+    width: 100%;
+    background: rgb(212, 5, 5);
+    ;
+    border-top: 3px solid rgb(245, 221, 0);
+    color: rgb(245, 221, 0);
+}
+
+.footer-container {
+    width: 98%;
+    max-width: 1000px;
+    padding: 15px 0;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -ms-align-item: center;
+    align-items: center;
+}
+
+.footer-container .footer-main {
+    width: 70%;
+}
+
+.footer-container .footer-links {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-container .footer-links a {
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: rgb(212, 5, 5);
+    ;
+    color: rgb(245, 221, 0);
+    ;
+    text-align: center;
+}

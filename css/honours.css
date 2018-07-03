@@ -1,0 +1,52 @@
+.accordion {
+    bottom: 100px;
+}
+
+.honours {
+    background-color: #fff2f2;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    bottom: 100px;
+}
+
+button.accordion {
+    width: 100%;
+    background-color: rgb(245, 221, 0);
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: rgb(212, 5, 5);
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+}
+
+button.accordion:after {
+    content: '\f055';
+    font-family: "fontawesome";
+    font-size: 14px;
+    float: right;
+}
+
+button.accordion.is-open:after {
+    content: '\f056';
+}
+
+button.accordion:hover,
+button.accordion.is-open {
+    background-color: rgb(212, 5, 5);
+    color: rgb(245, 221, 0);
+}
+
+.accordion-content {
+    background-color: rgb(185, 185, 185);
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+    color: rgb(212, 5, 5);
+}
